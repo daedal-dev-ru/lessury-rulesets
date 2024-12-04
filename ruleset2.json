@@ -1,0 +1,42 @@
+[
+   {
+      "domain":[
+         "private"
+      ],
+      "enabled":true,
+      "locked":true,
+      "outboundTag":"direct",
+      "remarks":"Локальные подключения"
+   },
+   {
+      "domain":[
+         "ru",
+         "by",
+         "category-ru",
+         "category-gov-ru"
+      ],
+      "enabled":true,
+      "locked":true,
+      "outboundTag":"direct",
+      "remarks":"Прямое подключение РФ"
+   },
+   {
+      "enabled":true,
+      "locked":true,
+      "outboundTag":"direct",
+      "protocol":[
+         "bittorrent"
+      ],
+      "remarks":"Торренты напрямую"
+   },
+   {
+      "domain":[
+         "category-ads-all",
+         "category-public-tracker"
+      ],
+      "enabled":true,
+      "locked":true,
+      "outboundTag":"block",
+      "remarks":"Блокировка рекламы"
+   }
+]
